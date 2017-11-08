@@ -12,7 +12,8 @@
     chrome.tabs.executeScript(null,{ file: "jquery-1.11.3.min.js"},
            function(){
                chrome.windows.create({
-                   url: 'https://github.dena.jp/pages/tianqi-li/tianqi-li.github.io/aws_p3.html', 
+                   //url: 'https://github.dena.jp/pages/tianqi-li/tianqi-li.github.io/aws_p3.html', 
+                   url: 'http://localhost/leetenki.github.io/aws_p3.html', 
                    type: 'popup',
                    state: 'fullscreen'
                });
