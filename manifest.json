@@ -1,0 +1,19 @@
+{
+  "name": "lee presentation",
+  "version": "0.0.5",
+  "manifest_version": 2,
+  "description": "アドレスバー非表示のプレゼン",
+  "permissions": [
+    "activeTab"
+  ],
+  "background":{
+    "scripts":  ["background.js"]
+  },
+  "page_action": {
+    "default_icon": "lee.png",
+    "default_title": "lee presentation"
+  },
+  "icons" : {
+    "128": "lee.png"
+  }
+}
